@@ -1,0 +1,106 @@
+{
+    "personal": {
+        "nombre": "Estiven Jesus Camacho Aarmijos",
+        "fechaNacimiento": "18/12/2002",
+        "ciudad": "Granada",
+        "pais": "España",
+        "email": "estivencamachops@gmail.com"
+    },
+    "estudios": [
+        {
+            "titulo": "Desarrollo de Aplicaciones Multiplataforma",
+            "centro": "ESCAV Granada",
+            "fecha": "2023-2025"
+        },
+        {
+            "titulo": "Bachillerato",
+            "centro": "IES Americo Castro",
+            "fecha": "2019-2021"
+        }
+    ],
+    "experiencia": [
+        {
+            "puesto": "Jornalista",
+            "empresa": "Hortoventas S.A",
+            "fecha": "2020-2022",
+            "descripcion": "Manipulando alimentos en la nave"
+        },
+        {
+            "puesto": "Jornalista",
+            "empresa": "Cesurca S.A",
+            "fecha": "2018-2020",
+            "descripcion": "Jornalero trabajando en el campo"
+        }
+    ],
+    "idiomas": [
+        {
+            "idioma": "Español",
+            "nivel": "Nativo"
+        },
+        {
+            "idioma": "Inglés",
+            "nivel": "B1",
+            "titulo": "Cambridge"
+        }
+    ],
+    "skills": [
+        {
+            "skill": "Trabajo en equipo",
+            "descripcion": "Trabajo en equipo en proyectos de desarrollo de aplicaciones multiplataforma."
+        },
+        {
+            "skill": "Creatividad",
+            "descripcion": "Creatividad en el diseño de elementos gráficos y en la resolución de problemas."
+        },
+        {
+            "skill": "Organización",
+            "descripcion": "Facilidad de organización para completar los trabajos/proyectos sin entregarlo tarde."
+        },
+        {
+            "skill": "Proactividad",
+            "descripcion": "Proactividad a la hora de resolución de problemas."
+        },
+        {
+            "skill": "Trabajo bajo presión",
+            "descripcion": "Resolución de trabajos bajo presión sin ningun incoveniente."
+        }
+    ],
+    "tech": [
+        {
+            "nombre": "JavaScript",
+            "nivel": "Medio",
+            "svg" : "logos/js.svg"
+        },
+        {
+            "nombre": "HTML",
+            "nivel": "Medio",
+            "svg" : "logos/html5.svg"
+        },
+        {
+            "nombre": "CSS",
+            "nivel": "Medio",
+            "svg" : "logos/css.svg"
+        },
+        {
+            "nombre": "Markdown",
+            "nivel": "Medio",
+            "svg" : "logos/markdown.svg"
+        },
+        {
+            "nombre": "Wordpress",
+            "nivel": "Alto",
+            "svg" : "logos/wordpress.svg"
+        },
+        {
+            "nombre": "C#",
+            "nivel": "Medio",
+            "svg" : "logos/csharp.svg"
+        },
+        {
+            "nombre": "Unreal Engine",
+            "nivel": "Medio",
+            "svg" : "logos/unreal.svg"
+        }
+
+    ]   
+}
