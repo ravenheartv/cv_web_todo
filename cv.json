@@ -1,0 +1,66 @@
+{
+    "personal": {
+        "Nombre" : "Alejandro De La Corte Grosso",
+        "Fecha_De_Nacimiento": "19/03/2004",
+        "Ciudad": "Granada",
+        "Pais": "España",
+        "Email": "delacorte19@gmail.com"
+    },
+    "Estudios": [
+        {
+            "Estudios": "Desarrollo de aplicaciones multiplataforma",
+            "Centro": "Escav Granada",
+            "Fecha": "2023-2025"
+        },
+        {
+            "Titulo": "Bachiller",
+            "Centro": "IES Profesor Antonio Muro",
+            "Fecha": "2020-2023"
+        }
+    ],
+    "Experiencia":[
+        {
+            "Puesto": "Encargado",
+            "Empresa": "Mediamarkt",
+            "Fecha":"2020-2022",
+            "Descripcion": "Encargado de seccion de informatica y tablets"
+        }
+    ],
+    "idiomas":[
+        {
+            "Idioma": "Español",
+            "Nivel": "Nativo"
+        },
+        {
+            "Idioma": "Ingles",
+            "Nivel": "Cambrige"
+        }
+    ],
+    "Skills": [
+        {
+            "Skills": "Creatividad",
+            "Descripcion": "Soy una persona que a lo largo del dia tiene muchas ideas y tambien soy alguien que tiene ideas creativas en un corto plazo de tiempo"
+        },
+        {
+            "Skills":"Trabajo en equipo",
+            "Descripcion": "Soy una persona que trabajando en equipo se desenvuelve bien y tiene gran adaptibilidad a distintos equipos"
+        }
+    ],
+    "tech":[
+        {
+            "Nombre": "JS",
+            "Nivel": "Medio",
+            "svg": ""
+        },
+        {
+            "Nombre": "HTML",
+            "Nivel": "Medio",
+            "svg": ""
+        },
+        {
+            "Nombre": "CSS",
+            "Nivel": "Medio",
+            "svg": ""
+        }
+    ]
+}
