@@ -1,0 +1,95 @@
+{
+    "personal" : {
+        "nombre": "Cristian González González",
+        "fechaNacimiento": "07-09-1989",
+        "ciudad": "Granada",
+        "pais": "España",
+        "email": "cristian727manxero@gmail.com"
+    },
+    "estudios" : [
+        {
+            "titulo": "Desarrollo de Aplicaciones Multiplataforma",
+            "centro": "ESCAV Granada",
+            "fecha": "2023-2024"
+        },
+        {
+            "titulo": "Grado Turismo",
+            "centro": "Universidad de Granada",
+            "fecha": "2021"
+        }
+    ],
+        "experiencia" : [
+            {
+                "puesto": "Guia Turistico",
+                "empresa": "Isla Bonita Tours",
+                "fecha": "2019",
+                "descripcion": "Rutas de senderismo"
+            },
+            {
+                "puesto": "Obrero",
+                "empresa": "Construcciones y reformas Victor Manuel",
+                "fecha": "2021-2023",
+                "descripcion": "Reforma de casas"                
+            }
+            
+        ],
+    "idiomas": [
+        {
+            "idioma": "Español",
+            "nivel": "Nativo"
+        },
+        {
+            "idioma": "Ingles",
+            "nivel": "B2",
+            "titulo": "Cambridge"            
+        }
+    ],    
+    "skills": [
+        {
+            "skill": "Trabajo en equipo",
+            "descripcion": "Trabajo en el equipo en proyector de desarrollo de aplicaciones multiplataforma."
+        },
+        {
+            "skill": "Creatividad",
+            "descripcion": "Creatividad en el diseño de elementos gráficos y en la resolución de problemas."            
+        }
+    ],
+    "tech": [
+        {
+            "nombre": "JavaScript",
+            "nivel": "principiante",
+            "logo": "JS"
+        },
+        {
+            "nombre": "HTML",
+            "nivel": "medio",
+            "logo": "logos/html.svg"
+        },
+        {
+            "nombre": "CSS",
+            "nivel": "medio",
+            "logo": "logos/css.svg"
+        },
+        {
+            "nombre": "Markdown",
+            "nivel": "medio",
+            "logo": "logos/markdown.svg"
+        },
+        {
+            "nombre": "Unrealengine",
+            "nivel": "medio",
+            "logo": "logos/unrealengine.svg"
+        },
+        {
+            "nombre": "Unity",
+            "nivel": "medio",
+            "logo": "logos/unity.svg"
+        },
+        {
+            "nombre": "WordPress",
+            "nivel": "medio",
+            "logo": "logos/wordpress.svg"
+        }
+    ]
+    
+}
