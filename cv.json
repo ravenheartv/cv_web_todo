@@ -1,0 +1,81 @@
+{
+    "personal": {
+        "nombre": "Álvaro Román Bermúdez",
+        "fechaNacimiento": "04-01-2005",
+        "ciudad": "Granada",
+        "pais": "España",
+        "email": "alvarodevejer4@gmail.com"
+    },
+    "estudios": [
+        {
+            "titulo": "Desarrollo de Aplicaciones Multiplataformas",
+            "centro": "ESCAV Granada",
+            "fecha": "2023-2025"
+        },
+        {
+            "titulo": "Bachillerato",
+            "centro": "I.E.S La Janda",
+            "fecha": "2021-2023"
+        }
+    ],
+    "experiencia": [
+        {
+            "puesto": "Repartidor",
+            "empresa": "Kebab Turco - Perla Vejer",
+            "fecha": "2021-2022",
+            "descripcion": "Repatidor y camarero del establecimiento"
+        }
+    ],
+    "idiomas":[
+        {
+            "idioma": "Español",
+            "nivel": "Nativo"
+        },
+        {
+            "idioma": "Inglés",
+            "nivel": "B1"
+        }
+    ],
+    "skills":[
+        {
+            "skill": "Trabajo en equipo",
+            "descripcion": "Trabajo en equipo en proyectos de desarrollo de aplicaciones multiplataformas."
+        },
+        {
+            "skill": "Organizado",
+            "descripcion": "Me organizó muy bien a la hora de crear y progresar con un proyecto."
+        }
+    ],
+    "tech":[
+        {
+            "nombre": "JavaScript",
+            "nivel": "Medio",
+            "logo": "logos/js.svg"
+        },
+        {
+            "nombre": "HTML",
+            "nivel": "Medio",
+            "logo": "logos/html5.svg"
+        },
+        {
+            "nombre": "CSS",
+            "nivel": "Medio",
+            "logo": "logos/css3.svg"
+        },
+        {
+            "nombre": "UnrealEngine 5",
+            "nivel": "Bajo",
+            "logo": "logos/unreal-engine.svg"
+        },
+        {
+            "nombre": "MarkDown",
+            "nivel": "Alto",
+            "logo": "logos/markdown.svg"
+        },
+        {
+            "nombre": "WordPress",
+            "nivel": "Bajo",
+            "logo": "logos/wordpress.svg"
+        }
+    ]
+}
