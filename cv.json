@@ -1,0 +1,105 @@
+{
+    "personal":{
+        "nombre": "Javier Camarero López",
+        "fechaNacimiento": "03/06/2003",
+        "ciudad": "Granada, España",
+        "país": "España",
+        "email": "javiercamarerolopez@gmail.com"
+    },
+
+    "estudios":[
+        {
+            "título": "Desarrollo de Aplicaciones Multiplataforma",
+            "centro": "ESCAV Granada",
+            "duración": "2023-2025"
+        },
+        {
+            "título": "Técnico Superior en Mantenimiento Electrónico",
+            "centro": "IES Virgen de las Nieves",
+            "duración": "2021-2023"
+        },
+        {
+            "título": "Bachillerato Tecnológico",
+            "centro": "IES Ilíberis",
+            "duración": "2019-2021"
+        }
+    ],
+    "experiencia":[
+        {
+            "puesto": "Técnico de Mantenimiento",
+            "empresa": "Escape Digital",
+            "duración": "2023"
+        },
+        {
+            "puesto": "Mozo de Almacén",
+            "empresa": "Mercadona",
+            "duración": "2021"
+        }
+    ],
+    "idiomas":[
+        {   
+            "idioma": "Español",
+            "nivel": "nativo"
+        },
+        {
+            "idioma": "Inglés",
+            "nivel": "B1",
+            "título": "APTIS"
+        }
+    ],
+    "skills":[
+        {
+            "skill": "Trabajo en equipo",
+            "descripcion": ""
+        },
+        {
+            "skill": "Creativo",
+            "descripcion": ""
+        },
+        {
+            "skill": "Proactivo",
+            "descripcion": ""
+        },
+        {
+            "skill": "",
+            "descripcion": ""
+        }
+    ],
+    "tech":[
+        {
+            "nombre": "JavaScript",
+            "nivel": "Medio",
+            "svg": "/logos/javascript.svg"
+        },
+        {
+            "nombre": "CSS",
+            "nivel": "Medio",
+            "svg": "/logos/css.svg"
+        },
+        {
+            "nombre": "HTML",
+            "nivel": "Medio",
+            "svg": "/logos/html.svg"
+        },
+        {
+            "nombre": "Markdown",
+            "nivel": "Medio-alto",
+            "svg": "/logos/markdown.svg"
+        },
+        {
+            "nombre": "Wordpress",
+            "nivel": "Medio-alto",
+            "svg": "/logos/wordpress.svg"
+        },
+        {
+            "nombre": "C#",
+            "nivel": "Bajo-medio",
+            "svg": "/logos/c#.svg"
+        },
+        {
+            "nombre": "Unreal Engine",
+            "nivel": "Medio",
+            "svg": "/logos/unreal-engine.svg"
+        }
+    ]
+}
