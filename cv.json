@@ -1,0 +1,69 @@
+{
+    "personal": {
+        "nombre": "Lucas Alejandro Sudre Telechea",
+        "fechaNacimiento": "26/04/2004",
+        "ciudad": "Granada",
+        "pais": "España",
+        "email": "lucasst626@gmial.com"
+    },
+    "estudios": [
+        {
+            "titulo": "Desarrollo de Aplicaciones Multiplataformas",
+            "centro": "ESCAV Granada",
+            "fecha": "2023-2025"
+        },
+        {
+            "titulo": "Bachillerato",
+            "centro": "IES Angel Ganivet",
+            "fecha": "2020-2022"
+        }
+    ],
+    "experiencia": [
+        {
+            "puesto": "Encargado",
+            "empresa": "Pizzeria La Pizza",
+            "fecha": "2020-2022",
+            "descripcion": "Realizar pedidos, gestionar inventario y caja."
+        }
+    ],
+    "idiomas": [
+        {
+            "idioma": "Español",
+            "nivel": "Nativo"
+        },
+        {
+            "idioma": "Ingles",
+            "nivel": "C1",
+            "titulo": "Cambrige"
+        },
+        {
+            "idioma": "Frances",
+            "nivel": "B1"
+        }
+    ],
+    "skills": [
+        {
+            "skill": "Trabajos en Equipos",
+            "descripcion": "Capacidad de trabajar con grupos grandes y pequeños y adaptarme a todos los ambientes de trabajo"
+        },
+        {
+            "skill": "Trabajos en Equipos",
+            "descripcion": "Capacidad de trabajar con grupos grandes y pequeños y adaptarme a todos los ambientes de trabajo"
+        },
+        {
+            "skill": "Trabajos en Equipos",
+            "descripcion": "Capacidad de trabajar con grupos grandes y pequeños y adaptarme a todos los ambientes de trabajo"
+        }
+    ],
+    "tech": [
+        {
+            "nombre": "Javascript",
+            "nivel" : "medio",
+            "svg" : "Logos/WP-logo.svg"
+        }
+    ]
+    
+
+
+
+}
