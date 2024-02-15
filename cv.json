@@ -1,0 +1,67 @@
+{
+    "personal": {
+        "nombre": "Juan Diego Mariscal Millán",
+        "fechaNacimiento": "1991-02-04",
+        "ciudad": "Granada",
+        "pais": "España",
+        "email": "juandiegomariscalmillan@gmail.com"
+    },
+    "estudios": [
+        {
+            "titulo": "Desarrollo de Aplicaciones Multiplataforma",
+            "centro": "ESCAV Granada",
+            "fecha": "2023-2024"
+        }
+    ],
+    "experiencia": [
+        {
+            "puesto": "Encargado",
+            "empresa": "Mediamarkt",
+            "fecha": "2020-2022",
+            "descripcion": "Encargado de seccion de informática y tablets."
+        }
+    ],
+    "idiomas": [
+        {
+            "idioma": "Español",
+            "nivel": "Nativo"
+        },
+        {
+            "idioma": "Inglés",
+            "nivel": "C1",
+            "titulo": "APTIS"
+        }
+    ],
+    "skills": [
+        {
+            "skill": "Trabajo en equipo",
+            "descripcion": "Trabajo en equipo en proyectos de desarrollo de aplicaciones multiplataforma."
+        },
+        {
+            "skill": "Creatividad",
+            "descripcion": "Creatividad en el diseño de elementos gráficos y en la resolución de problemas."
+        }
+    ],
+    "tech": [
+        {
+            "nombre": "JavaScript",
+            "nivel": "Avanzado",
+            "svg" : "logos/js.svg"
+        },
+        {
+            "nombre": "HTML",
+            "nivel": "Avanzado",
+            "svg" : "logos/html5.svg"
+        },
+        {
+            "nombre": "CSS",
+            "nivel": "Medio",
+            "svg" : "logos/css.svg"
+        },
+        {
+            "nombre": "Markdown",
+            "nivel": "Alto",
+            "svg" : "logos/markdown.svg"
+        }
+    ]   
+}
