@@ -11,9 +11,20 @@
             "titulo": "Desarrollo de Aplicaciones Multiplataforma",
             "centro": "ESCAV Granada",
             "fecha": "2023-2024"
+        },
+        {
+            "titulo": "Bachillerato",
+            "centro": "IES Angel Ganivet",
+            "fecha": "2014-2015"
         }
     ],
     "experiencia": [
+        {
+            "puesto": "Técnico en automatización y robótica industrial",
+            "empresa": "Rodama SL",
+            "fecha": "2020-2024",
+            "descripcion": "Montaje, cableado y arranque de maquinaria industrial para Valeo"
+        },
         {
             "puesto": "Encargado",
             "empresa": "Mediamarkt",
@@ -40,6 +51,10 @@
         {
             "skill": "Creatividad",
             "descripcion": "Creatividad en el diseño de elementos gráficos y en la resolución de problemas."
+        },
+        {
+            "skill": "Proactividad",
+            "descripcion": "Soy activo en la busqueda de soluciones"
         }
     ],
     "tech": [
