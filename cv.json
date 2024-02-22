@@ -2,7 +2,7 @@
     "personal":{
         "nombre": "Javier Camarero López",
         "fechaNacimiento": "03/06/2003",
-        "ciudad": "Granada, España",
+        "ciudad": "Granada",
         "país": "España",
         "email": "javiercamarerolopez@gmail.com"
     },
@@ -11,17 +11,17 @@
         {
             "título": "Desarrollo de Aplicaciones Multiplataforma",
             "centro": "ESCAV Granada",
-            "duración": "2023-2025"
+            "fecha": "2023-2025"
         },
         {
             "título": "Técnico Superior en Mantenimiento Electrónico",
             "centro": "IES Virgen de las Nieves",
-            "duración": "2021-2023"
+            "fecha": "2021-2023"
         },
         {
             "título": "Bachillerato Tecnológico",
             "centro": "IES Ilíberis",
-            "duración": "2019-2021"
+            "fecha": "2019-2021"
         }
     ],
     "experiencia":[
@@ -94,7 +94,7 @@
         {
             "nombre": "C#",
             "nivel": "Bajo-medio",
-            "svg": "/logos/c#.svg"
+            "svg": "/logos/c-shard.svg"
         },
         {
             "nombre": "Unreal Engine",
