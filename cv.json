@@ -4,7 +4,7 @@
         "fechaNacimiento": "26/04/2004",
         "ciudad": "Granada",
         "pais": "España",
-        "email": "lucasst626@gmial.com"
+        "email": "lucasst626@gmail.com"
     },
     "estudios": [
         {
@@ -59,12 +59,12 @@
         {
             "nombre": "Javascript",
             "nivel" : "medio",
-            "svg" : "/Logos/JS-logo.svg"
+            "svg" : "/l"
         },
         {
             "nombre": "HTML",
             "nivel" : "medio",
-            "svg" : "/Logos/HTML-logo.svg"
+            "svg" : "/L"
         },
         {
             "nombre": "CSS",
@@ -84,7 +84,7 @@
         {
             "nombre": "Unreal Engine",
             "nivel" : "medio",
-            "svg" : "./Logos/UE-logo.svg" 
+            "svg" : "/Logos/UE-logo.svg" 
         }
     ]
 }
