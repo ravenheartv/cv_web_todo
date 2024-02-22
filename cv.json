@@ -8,7 +8,7 @@
     },
     "Estudios": [
         {
-            "Estudios": "Desarrollo de aplicaciones multiplataforma",
+            "Titulo": "Desarrollo de aplicaciones multiplataforma",
             "Centro": "Escav Granada",
             "Fecha": "2023-2025"
         },
@@ -50,32 +50,32 @@
         {
             "Nombre": "JS",
             "Nivel": "Medio",
-            "svg": ""
+            "svg": "logos/js-svgrepo-com.svg"
         },
         {
             "Nombre": "HTML",
             "Nivel": "Medio",
-            "svg": ""
+            "svg": "logos/html5-01-svgrepo-com.svg"
         },
         {
             "Nombre": "CSS",
             "Nivel": "Medio",
-            "svg": ""
+            "svg": "/logos/css3-01-svgrepo-com.svg"
         },
         {
             "Nombre": "UNITY",
             "Nivel": "Medio",
-            "svg": ""
+            "svg": "logos/unity-svgrepo-com.svg"
         },
         {
             "Nombre": "UNREAL ENGINE 5",
             "Nivel": "Medio",
-            "svg": ""
+            "svg": "logos/unreal-engine-svgrepo-com.svg"
         },
         {
             "Nombre": "WORDPRESS",
             "Nivel": "Medio",
-            "svg": ""
+            "svg": "logos/wordpress-139-svgrepo-com.svg"
         }
     ]
 }
