@@ -33,7 +33,7 @@
             }
             
         ],
-    "idiomas": [
+        "idiomas": [
         {
             "idioma": "Español",
             "nivel": "Nativo"
@@ -44,7 +44,7 @@
             "titulo": "Cambridge"            
         }
     ],    
-    "skills": [
+        "skills": [
         {
             "skill": "Trabajo en equipo",
             "descripcion": "Trabajo en el equipo en proyector de desarrollo de aplicaciones multiplataforma."
