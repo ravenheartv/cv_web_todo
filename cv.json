@@ -84,7 +84,7 @@
         {
             "nombre": "Unreal Engine",
             "nivel" : "medio",
-            "svg" : "/Logos/UE-logo.svg"
+            "svg" : "./Logos/UE-logo.svg" 
         }
     ]
 }
