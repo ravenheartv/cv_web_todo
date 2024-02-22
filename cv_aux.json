@@ -38,11 +38,11 @@
         },
         {
             "competencia" : "Dibujo",
-            "descriptor" : ""
+            "descriptor" : "Conozco como dibujar bien. En digital (con el programmo ''firealpaca'') como en tradicional en papel"
         },
         {
             "competencia" : "Modelo 3D",
-            "descriptor" : ""
+            "descriptor" : "Conozco como modelar modelos 3d en low poly"
         }
         
     ],
