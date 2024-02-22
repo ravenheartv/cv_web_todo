@@ -1,2 +1,2 @@
-# cv_web
-Website para CV a partir de JSON
+# json_cv
+jotason del jueves

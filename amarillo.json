@@ -1,0 +1,42 @@
+{
+    "personal": {
+      "nombre": "Idaira Lozano",
+      "direccion": "Calle Santa Clotilde",
+      "telefono": "696969696",
+      "correo_electronico": "idairica@example.com"
+    },
+    "estudios": [
+      {
+        "titulo": "Videogames",
+        "institucion": "ESCAV",
+        "fecha_inicio": "octubre 2023",
+        "fecha_fin": "Junio 2025"
+      },
+      {
+        "titulo": "FP GM INFORMATICA",
+        "institucion": "ies alandalus",
+        "fecha_inicio": "Septiembre 2021",
+        "fecha_fin": "Junio 2023"
+      }
+    ],
+    "experiencia": [
+      {
+        "puesto": "gestión de usuarios sistemas operativos",
+        "empresa": "Gaming Project",
+        "fecha_inicio": "Marzo 2023",
+        "fecha_fin": "junio 2023",
+        "responsabilidades": [
+          "Manteimiento del local",
+          "Gestión y control de usuario mediante interfaz"
+        ]
+      }
+    ],
+    "skills": [
+      "Desarrollo de aplicaciones web",
+      "Unity",
+      "dibujo digital",
+      "Trabajo en equipo",
+      "Resolución de problemas"
+    ]
+  }
+  
