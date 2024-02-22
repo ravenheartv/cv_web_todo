@@ -58,7 +58,7 @@
         {
             "nombre": "JavaScript",
             "nivel": "principiante",
-            "logo": "JS"
+            "logo": "logos/js.svg"
         },
         {
             "nombre": "HTML",
