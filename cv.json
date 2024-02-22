@@ -1,32 +1,38 @@
 {
-    "personal": [{
+    "personal": {
         "nombre" : "Makram Elghadir Achbani",
         "fechaDeNacimiento" : "10-08-2002",
         "ciudad" : "Granada",
         "pais" : "España",
         "email": "mkelghadir@gmail.com"}
 
-    ],
+    ,
 
     "estudios": {
-        "Universidad" : "Escav dam 2023/2024"
+        "titulo" : "dam",
+        "centro" : "Escav 2023/2024",
+        "fechaDeEstudio" : "2023/2024"
     },
+
     "experiencia": {
-    
+        "puesto" : "Agacompta",
+        "curso" : "dam",
+        "fechaDeTrabajo" : "2023/2024"
     },
+    
     
     "idioma": [
             {
-                "Idioma" : "Frances",
+                "idioma" : "Frances",
                 "nivel" : "Nativo"
             },
              
             {
-                "Idioma" : "Ingles",
+                "idioma" : "Ingles",
                 "nivel" : "Competante"
             },
             {
-                "Idioma" : "Español",
+                "idioma" : "Español",
                 "nivel" : "Bien"
             }
         ],
