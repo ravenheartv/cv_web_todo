@@ -22,7 +22,7 @@
         {
             "puesto": "Repartidor",
             "empresa": "Kebab Turco - Perla Vejer",
-            "fecha": "2021-2022",
+            "fecha": "10/2021-02/2023",
             "descripcion": "Repatidor y camarero del establecimiento"
         }
     ],
@@ -63,19 +63,19 @@
             "logo": "logos/css3.svg"
         },
         {
-            "nombre": "UnrealEngine 5",
-            "nivel": "Bajo",
-            "logo": "logos/unreal-engine.svg"
-        },
-        {
             "nombre": "MarkDown",
             "nivel": "Alto",
             "logo": "logos/markdown.svg"
         },
         {
             "nombre": "WordPress",
-            "nivel": "Bajo",
+            "nivel": "Medio",
             "logo": "logos/wordpress.svg"
+        },
+        {
+            "nombre": "UnrealEngine 5",
+            "nivel": "Bajo",
+            "logo": "logos/unreal-engine.svg"
         }
     ]
 }

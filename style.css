@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    margin-bottom: 20px;
+    width: 25%;
+    background: cyan;
+    height: 25vh;
+}
+
+:root{
+    font-size: 16px;
+    font-family: monospace;
+}
+
+.flex-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
