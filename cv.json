@@ -61,6 +61,21 @@
             "Nombre": "CSS",
             "Nivel": "Medio",
             "svg": ""
+        },
+        {
+            "Nombre": "UNITY",
+            "Nivel": "Medio",
+            "svg": ""
+        },
+        {
+            "Nombre": "UNREAL ENGINE 5",
+            "Nivel": "Medio",
+            "svg": ""
+        },
+        {
+            "Nombre": "WORDPRESS",
+            "Nivel": "Medio",
+            "svg": ""
         }
     ]
 }
