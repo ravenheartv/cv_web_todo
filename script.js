@@ -67,7 +67,7 @@ function crearCV(cv){
         contenedorTech.innerHTML +=
         `<li>${nombre}</li>
         <li>${nivel}</li>
-        <li>${svg}</li>`
+        <li><img src= "${svg}" alt ="${nombre} width="50" height="50"></li>`
         
      });
     // contenedorPersonal.innerHTML = 

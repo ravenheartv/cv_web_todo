@@ -57,34 +57,34 @@
     ],
     "tech": [
         {
-            "nombre": "Javascript",
+            "nombre": "JS",
             "nivel" : "medio",
-            "svg" : "/l"
+            "svg" : "logos/js-logo.svg"
         },
         {
             "nombre": "HTML",
             "nivel" : "medio",
-            "svg" : "/L"
+            "svg" : "logos/js-logo.svg"
         },
         {
             "nombre": "CSS",
             "nivel" : "medio",
-            "svg" : "/Logos/CSS-logo.svg"
+            "svg" : "Logos/CSS-logo.svg"
         },
         {
-            "nombre": "C#",
+            "nombre": "C-sharp",
             "nivel" : "medio",
-            "svg" : "/Logos/UNITY-logo.svg"
+            "svg" : "Logos/UNITY-logo.svg"
         },
         {
             "nombre": "WordPress",
             "nivel" : "medio",
-            "svg" : "/Logos/WP-logo.svg"
+            "svg" : "Logos/WP-logo.svg"
         },
         {
             "nombre": "Unreal Engine",
             "nivel" : "medio",
-            "svg" : "/Logos/UE-logo.svg" 
+            "svg" : "logos/js-logo.svg" 
         }
     ]
 }
