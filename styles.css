@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    font-size: 35px;
+    font-family: monospace;
+    justify-content: space-around;
+}
+
+#personal{
+    width: 100%;
+    background: rgb(117, 99, 255);
+    height: 100vh;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#estudios{
+    width: 100%;
+    background: rgb(255, 185, 80);
+    height: 100vh;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#experiencia{
+    width: 100%;
+    background: rgb(255, 95, 218);
+    height: 100vh;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#idiomas{
+    width: 100%;
+    background: rgb(62, 167, 76);
+    height: 100vh;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#skills{
+    width: 100%;
+    background: rgb(170, 182, 68);
+    height: 100vh;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#tech{
+    width: 100%;
+    background: rgb(160, 59, 59);
+    height: 100vh;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
