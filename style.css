@@ -1,7 +1,7 @@
 body {
-  background-color: #111; /* Fondo negro */
-  color: #fff; /* Texto blanco */
-  font-family: 'Press Start 2P', sans-serif; /* Fuente 'Press Start 2P' */
+  background-color: #111; 
+  color: #fff; 
+  font-family: 'Press Start 2P', sans-serif;
 }
 
 h2 {
@@ -18,15 +18,15 @@ ul {
 li {
   margin-bottom: 10px;
   padding: 10px;
-  border: 1px solid #00ff00; /* Borde verde */
+  border: 1px solid #00ff00; 
   border-radius: 5px;
-  box-shadow: 0 0 5px rgba(0, 255, 0, 0.3); /* Sombra verde */
-  background-color: #222; /* Fondo gris oscuro */
+  box-shadow: 0 0 5px rgba(0, 255, 0, 0.3);
+  background-color: #222; 
 }
 
 li:hover {
-  background-color: #00ff00; /* Fondo verde al pasar el ratón */
-  color: #000; /* Texto negro al pasar el ratón */
+  background-color: #00ff00; 
+  color: #000; 
 }
 
 /* Personaliza las secciones */
@@ -71,7 +71,7 @@ li:hover {
 }
 
 #tech li {
-  width: 200px; /* Ajustar ancho según sea necesario */
+  width: 200px; 
 }
 
 #personal:hover h2,
@@ -80,26 +80,25 @@ li:hover {
 #idiomas:hover h2,
 #skills:hover h2,
 #tech:hover h2 {
-  color: #00ff00; /* Texto verde al pasar el ratón sobre la sección */
+  color: #00ff00; 
 }
 
 li:hover {
-  background-color: #00ff00; /* Fondo verde al pasar el ratón */
-  color: #000; /* Texto negro al pasar el ratón */
-  box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /* Brillo verde al pasar el ratón */
+  background-color: #00ff00; 
+  color: #000; 
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); 
 }
 
 li:hover {
-  background-color: #00ff00; /* Fondo verde al pasar el ratón */
-  color: #000; /* Texto negro al pasar el ratón */
-  transition: 0.3s ease-in-out; /* Animación suave */
+  background-color: #00ff00; 
+  color: #000; 
+  transition: 0.3s ease-in-out; 
 }
 
 
 li:hover {
-  background-color: #00ff00; /* Fondo verde al pasar el ratón */
-  color: #000; /* Texto negro al pasar el ratón */
-  -webkit-animation: wave 0.5s ease-in-out infinite;
+  background-color: #00ff00; 
+  color: #000; 
   animation: wave 0.5s ease-in-out infinite;
 }
 
