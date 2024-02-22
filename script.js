@@ -36,7 +36,7 @@ function crearCV(cv){
 
         contenedorExperiencia.innerHTML +=
         `<li>${puesto}</li> 
-        <li>S${empresa}</li>
+        <li>${empresa}</li>
         <li>${fecha}</li>
         <li>${descripcion}</li>
         `
@@ -67,7 +67,7 @@ function crearCV(cv){
         contenedorTech.innerHTML +=
         `<li>${nombre}</li>
         <li>${nivel}</li>
-        <li><img src= "${svg}" alt ="${nombre} width="50" height="50"></li>`
+        <li><img src="${svg}" alt="${nombre} width="50" height="50"></li>`
         
      });
     // contenedorPersonal.innerHTML = 
