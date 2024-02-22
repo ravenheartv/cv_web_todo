@@ -1,76 +1,24 @@
 {
-    "personal": [{
-        "nombre" : "Makram Elghadir Achbani",
-        "fechaDeNacimiento" : "10-08-2002",
-        "ciudad" : "Granada",
-        "pais" : "España",
-        "email": "mkelghadir@gmail.com"}
-
-    ],
-
+    "personal": {
+    
+    },
     "estudios": {
-        "Universidad" : "Escav dam 2023/2024"
+    
     },
     "experiencia": {
     
     },
     
     "idioma": [
-            {
-                "Idioma" : "Frances",
-                "nivel" : "Nativo"
-            },
-             
-            {
-                "Idioma" : "Ingles",
-                "nivel" : "Competante"
-            },
-            {
-                "Idioma" : "Español",
-                "nivel" : "Bien"
-            }
-        ],
     
-    "competencia": [
-        {
-            "competencia" : "programacion",
-            "descriptor" : "Conozco como codear un programo. Especialmente video juegos a traves C# o sitio web con javascript, HTM y CSS"
-        },
-        {
-            "competencia" : "Dibujo",
-            "descriptor" : "Conozco como dibujar bien. En digital (con el programmo ''firealpaca'') como en tradicional en papel"
-        },
-        {
-            "competencia" : "Modelo 3D",
-            "descriptor" : "Conozco como modelar modelos 3d en low poly"
-        }
-        
+    
     ],
     
-    "tech": [{
-        "nombre" : "javascript",
-        "nivel" : "debutante",
-        "svg" : "logos/js.svg"
+    "competencia": {
+    
     },
-
-    {
-        "nombre" : "C#",
-        "nivel" : "debutante",
-        "svg" : "logos/c.svg"
-    },
-
-    {
-        "nombre" : "CSS",
-        "nivel" : "debutante",
-        "svg" : "logos/css.svg"
-    },
-
-    {
-        "nombre" : "html",
-        "nivel" : "debutante",
-        "svg" : "logos/html.svg"
+    
+    "tech": {
+    
     }
-
-
-    ]
     }
