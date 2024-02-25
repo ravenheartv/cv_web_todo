@@ -4,31 +4,72 @@
         "fechaNacimiento": "1991-02-04",
         "ciudad": "Granada",
         "pais": "España",
-        "email": "juandiegomariscalmillan@gmail.com"
+        "email": "juandiegomariscalmillan@gmail.com",
+        "pic": "/img/monete.jpg"
     },
     "estudios": [
         {
-            "titulo": "Desarrollo de Aplicaciones Multiplataforma",
-            "centro": "ESCAV Granada",
-            "fecha": "2023-2024"
+            "titulo": "Bootcamp Fullstack",
+            "centro": "Keepcoding Madrid",
+            "fecha": "2021-2022"
         },
         {
-            "titulo": "Bachillerato",
-            "centro": "IES Angel Ganivet",
+            "titulo": "FP Automatización y Robótica Industrial",
+            "centro": "IES Virgen de las Nieves",
+            "fecha": "2017-2019"
+        },
+        {
+            "titulo": "FP Artes gráficas y diseño",
+            "centro": "IES Ángel Ganivet Granada",
+            "fecha": "2015-2017"
+        },
+        {
+            "titulo": "Imagen digital",
+            "centro": "EFTI Madrid",
             "fecha": "2014-2015"
+        },
+        {
+            "titulo": "FP Laboratorio de imagen",
+            "centro": "IES Ángel Ganivet Granada",
+            "fecha": "2011-2013"
         }
     ],
     "experiencia": [
         {
-            "puesto": "Técnico en automatización y robótica industrial",
+            "puesto": "Enseñanza FP",
+            "empresa": "ESCAV",
+            "fecha": "2024-Actualidad",
+            "descripcion": "Profesor de BBDD y LMSGI."
+        },
+        {
+            "puesto": "Desarrollo web",
+            "empresa": "Autonomo",
+            "fecha": "2023-2024",
+            "descripcion": "QA Testing y mantenimiento de aplicaciones web para empresas locales."
+        },
+        {
+            "puesto": "Enseñanza",
+            "empresa": "Cruz Roja",
+            "fecha": "2022-2023",
+            "descripcion": "Profesor del plan de iniciación al coding para jóvenes en entornos desestructurados."
+
+        },
+        {
+            "puesto": "Automatización y robótica industrial",
             "empresa": "Rodama SL",
-            "fecha": "2020-2024",
-            "descripcion": "Montaje, cableado y arranque de maquinaria industrial para Valeo"
+            "fecha": "2019-2022",
+            "descripcion": "Montaje, cableado y arranque de maquinaria industrial en el sector del automóvil."
+        },
+        {
+            "puesto": "Diseño gráfico y web",
+            "empresa": "Scoop Foundation Ireland",
+            "fecha": "2017-2018",
+            "descripcion": "Diseño de elementos gráficos y web para la fundación Scoop en Irlanda."
         },
         {
             "puesto": "Encargado",
             "empresa": "Mediamarkt",
-            "fecha": "2020-2022",
+            "fecha": "2014-2015",
             "descripcion": "Encargado de seccion de informática y tablets."
         }
     ],
@@ -41,32 +82,56 @@
             "idioma": "Inglés",
             "nivel": "C1",
             "titulo": "APTIS"
+        },
+        {
+            "idioma": "toki pona",
+            "nivel": "mute pona"
         }
     ],
     "skills": [
         {
-            "skill": "Trabajo en equipo",
-            "descripcion": "Trabajo en equipo en proyectos de desarrollo de aplicaciones multiplataforma."
+            "skill": "Autoaprendizaje",
+            "descripcion": "Soy capaz de aprender nuevas habilidades y tecnologías por mi cuenta."
         },
         {
-            "skill": "Creatividad",
-            "descripcion": "Creatividad en el diseño de elementos gráficos y en la resolución de problemas."
+            "skill": "Creativo",
+            "descripcion": "Tengo facilidad para tener nuevas ideas con las tecnologías que uso a diario."
         },
         {
             "skill": "Proactividad",
-            "descripcion": "Soy activo en la busqueda de soluciones"
+            "descripcion": "Soy activo en la busqueda de soluciones y mejoras en mi entorno laboral."
         }
     ],
     "tech": [
         {
-            "nombre": "JavaScript",
+            "nombre": "Git",
             "nivel": "Avanzado",
-            "svg" : "logos/js.svg"
+            "svg" : "logos/git.svg"
+        },
+        {
+            "nombre": "Python",
+            "nivel": "Medio",
+            "svg" : "logos/python.svg"
+        },
+        {
+            "nombre": "NodeJS",
+            "nivel": "Medio",
+            "svg" : "logos/nodejs.svg"
+        },
+        {
+            "nombre": "SQLite",
+            "nivel": "Medio",
+            "svg" : "logos/sqlite.svg"
+        },
+        {
+            "nombre": "Express",
+            "nivel": "Medio",
+            "svg" : "logos/express.svg"
         },
         {
             "nombre": "HTML",
             "nivel": "Avanzado",
-            "svg" : "logos/html5.svg"
+            "svg" : "logos/html.svg"
         },
         {
             "nombre": "CSS",
@@ -74,9 +139,62 @@
             "svg" : "logos/css.svg"
         },
         {
-            "nombre": "Markdown",
-            "nivel": "Alto",
-            "svg" : "logos/markdown.svg"
+            "nombre": "JavaScript",
+            "nivel": "Medio",
+            "svg" : "logos/js.svg"
         }
-    ]   
+    ],
+    "industrial": [
+        {
+            "nombre": "Universal Robots",
+            "svg" : "logos/universal.svg"
+        },
+        {
+            "nombre": "Mitsubishi",
+            "svg" : "logos/mitsubishi.svg"
+        },
+        {
+            "nombre": "ABB",
+            "svg" : "logos/abb.svg"
+        },
+        {
+            "nombre": "Kuka",
+            "svg" : "logos/kuka.svg"
+        },
+        {
+            "nombre": "Siemens",
+            "svg" : "logos/siemens.svg"
+        },
+        {
+            "nombre": "Festo",
+            "svg" : "logos/festo.svg"
+        },
+        {
+            "nombre": "Omron",
+            "svg" : "logos/omron.svg"
+        },
+        {
+            "nombre": "Beckhoff",
+            "svg" : "logos/beckhoff.svg"
+        }
+    ],
+    "proyectos": [
+        {
+            "nombre": "hhyyppeerrtteexxtt",
+            "descripcion": "Proyecto netart usando ascii art",
+            "tags": ["HTML", "ascii", "netart"],
+            "url": "https://hhyyppeerrtteexxtt.art/"
+        },
+        {
+            "nombre": "Ultrazone 0.1",
+            "descripcion": "Colección generativa en web3 en colaboracion con Víctor Arce <a href='https://www.instagram.com/lxtxcx/?hl=es'>@lxtxcx</a>",
+            "tecnologias": ["Python", "Express", "SQLite", "Vue"],
+            "url": "https://juandiegomariscal.github.io/portfolio/"
+        },{
+            "nombre": "Digital Garden",
+            "descripcion": "Colección glitch digital <del>en hicetnunc</del> mirror en objkt",
+            "tecnologias": ["ffmpeg"],
+            "url": "https://objkt.com/tokens/hicetnunc/121008"
+        }
+    ]
 }
