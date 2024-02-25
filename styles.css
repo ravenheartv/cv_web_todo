@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    font-family: monospace;
+    font-size: 26px;
+}
+
+a, a:visited, a:active{
+    color: black;
+}
+
+img{
+    width: 6cqw;
+    height: auto;
+}
+
+main{
+    font-size: 1.5cqw;
+    width: 100%;
+}
+
+.titulo_seccion{
+    background: black;
+    color: white;
+}
+
+#tech ul{
+    padding: 1cqw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+
