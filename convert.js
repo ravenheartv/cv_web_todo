@@ -5,10 +5,10 @@ const puppeteer = require('puppeteer');
     const page = await browser.newPage();
 
     //take web from localhost:5500
-    await page.goto('http://localhost:5500', {waitUntil: ['networkidle0', 'load', 'domcontentloaded']});
+    await page.goto('http://localhost:5501', {waitUntil: ['networkidle0', 'load', 'domcontentloaded']});
     await page.pdf({ 
         path: 'cv.pdf', 
-        format: 'Letter',
+        format: 'A4',
         printBackground: true
     });
 

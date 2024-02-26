@@ -6,13 +6,13 @@ const contenedorSkills = document.querySelector("#skills ul");
 const contenedorTech = document.querySelector("#tech ul");
 const contenedorIndustria = document.querySelector("#industria");
 const contenedorProyectos = document.querySelector("#proyectos ul");
-
+/*
 const messyTexts = new MessManager('.titulo_seccion');
 messyTexts.setMessDelay(50)
 messyTexts.setFixDelay(100)
 messyTexts.setIdleTime(1000)
 messyTexts.mess()
-
+*/
 fetch("/cv.json")
 .then(response => response.json())
 .then(data => crearCV(data));

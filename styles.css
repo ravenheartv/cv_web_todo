@@ -44,5 +44,11 @@ body{
     flex-wrap: wrap;
 }
 
+section{
+    margin: 2cqw 0;
+}
 
+.titulo_seccion{
+    margin: 1cqw 0;
+}
 
