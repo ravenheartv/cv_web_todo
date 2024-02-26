@@ -1,9 +1,11 @@
 {
     "personal": {
         "nombre": "Juan Diego Mariscal Millán",
-        "fechaNacimiento": "1991-02-04",
+        "fechaNacimiento": "2 Abril 1991",
         "ciudad": "Granada",
         "pais": "España",
+        "direccion": "C/ Sauce 28",
+        "telefono": "+34 629134448",
         "email": "juandiegomariscalmillan@gmail.com",
         "pic": "/img/monete.jpg"
     },
@@ -82,10 +84,6 @@
             "idioma": "Inglés",
             "nivel": "C1",
             "titulo": "APTIS"
-        },
-        {
-            "idioma": "toki pona",
-            "nivel": "mute pona"
         }
     ],
     "skills": [
@@ -181,20 +179,26 @@
     "proyectos": [
         {
             "nombre": "hhyyppeerrtteexxtt",
-            "descripcion": "Proyecto netart usando ascii art",
+            "descripcion": "Proyecto netart usando ascii art.",
             "tags": ["HTML", "ascii", "netart"],
             "url": "https://hhyyppeerrtteexxtt.art/"
         },
         {
             "nombre": "Ultrazone 0.1",
-            "descripcion": "Colección generativa en web3 en colaboracion con Víctor Arce <a href='https://www.instagram.com/lxtxcx/?hl=es'>@lxtxcx</a>",
-            "tecnologias": ["Python", "Express", "SQLite", "Vue"],
-            "url": "https://juandiegomariscal.github.io/portfolio/"
+            "descripcion": "Colección generativa en web3 en colaboracion con Víctor Arce <a href='https://www.instagram.com/lxtxcx/?hl=es'>@lxtxcx</a>.",
+            "tags": ["Python", "Express", "SQLite", "Vue"],
+            "url": "https://www.fxhash.xyz/generative/11540"
         },{
             "nombre": "Digital Garden",
-            "descripcion": "Colección glitch digital <del>en hicetnunc</del> mirror en objkt",
-            "tecnologias": ["ffmpeg"],
+            "descripcion": "Colección glitch digital original de hicetnunc, mirror en objkt.",
+            "tags": ["ffmpeg"],
             "url": "https://objkt.com/tokens/hicetnunc/121008"
+        },
+        {
+            "nombre": "messme.js",
+            "descripcion": "Librería para destrucción creativa de elementos html.",
+            "tags": ["JavaScript", "npm"],
+            "url": "https://github.com/datadiego/messme.js"
         }
     ]
 }

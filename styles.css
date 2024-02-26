@@ -7,7 +7,7 @@
 
 :root{
     font-family: monospace;
-    font-size: 26px;
+    font-size: 20px;
 }
 
 a, a:visited, a:active{
@@ -21,7 +21,15 @@ img{
 
 main{
     font-size: 1.5cqw;
-    width: 100%;
+    /* width: 100%; */
+    width: 80vw;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
 }
 
 .titulo_seccion{

@@ -35,6 +35,8 @@ function crearCV(cv){
     <li>${personal.fechaNacimiento}</li>
     <li>${personal.email}</li>
     <li>${personal.ciudad}, ${personal.pais}</li>
+    <li>${personal.direccion}</li>
+    <li>${personal.telefono}</li>
     `
 
     // Estudios
@@ -72,7 +74,7 @@ function crearCV(cv){
     skills.forEach(item => {
         const {skill, descripcion} = item
         contenedorSkills.innerHTML += `
-        <li><h3> <strong>${skill}</strong> </h3></li>
+        <li><h2> <strong>${skill}</strong> </h2></li>
         <li> ${descripcion}</li>
         `
     });
@@ -89,7 +91,7 @@ function crearCV(cv){
     proyectos.forEach(item => {
         const {nombre, descripcion, url} = item
         contenedorProyectos.innerHTML += `
-        <li> <a href="${url}"><h2> <strong>${nombre}</strong></h2></a></li>
+        <li><h2> <a href="${url}"> <strong>${nombre}</strong></a></h2></li>
         
         <li> ${descripcion}</li>
         `

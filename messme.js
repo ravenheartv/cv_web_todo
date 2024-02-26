@@ -1,3 +1,5 @@
+//messme es una libreria que te permite destruir y reconstruir elementos de texto HTML en tiempo real
+//la libreria se usa mediante la clase MessManager
 //chars.js
 const BASIC_CHARS = "abcdefghijklmñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ0123456789";
 const SPECIAL_CHARS = "áéíóúÁÉÍÓÚ";
@@ -50,13 +52,26 @@ const randomMethods = {
     }
 }
 
-// Repeater.js
+
 class Repeater{
-    constructor(goal, delay, autoreset, repeat_action, callback){
+    /**
+     * Repeater es una clase que repite un callback hasta alcanzar una meta
+     * @param {int} goal meta a alcanzar
+     * @param {int} delay tiempo entre cada iteracion
+     * @param {boolean} autoreset si se reinicia automaticamente al alcanzar la meta
+     * @param {function} repeat_action callback que se repite
+     * @param {function} end_action callback que se ejecuta al alcanzar la meta
+     * 
+     * @example
+     * const repeater = new Repeater(10, 100, true, () => console.log('hola'), () => console.log('adios'));
+     * repeater.start();
+     * 
+    */
+    constructor(goal, delay, autoreset=false, repeat_action, end_action){
         this.goal = goal;
         this.delay = delay;
         this.repeat_action = repeat_action;
-        this.callback = callback;
+        this.callback = end_action;
         this.current = 0;
         this.interval = null;
         this.autoreset = autoreset;
@@ -93,7 +108,12 @@ class Repeater{
     }
 }
 
+
 class Manipulator{
+    /**
+     * 
+     * @param {DynamicText} dynamicText Clase que contiene el texto a manipular
+     */
     constructor(dynamicText){
         this.dynamicText = dynamicText
         this.repeater = null;
@@ -170,15 +190,6 @@ class Messer extends Manipulator{
         else if (play_mode == "oneshot"){
             this.repeater = new Repeater(goal, delay, false, this.mess.bind(this));
         }
-        else if (play_mode == "mouseover"){
-            this.repeater = new Repeater(goal, delay, false, this.mess.bind(this));
-            this.dynamicText.element.addEventListener("mouseover", () => {
-                this.repeater.start();
-            });
-            this.dynamicText.element.addEventListener("mouseout", () => {
-                this.repeater.stop();
-            });
-        }
     }
     mess(){
         const index = this.repeater.current;
@@ -208,15 +219,6 @@ class Fixer extends Manipulator{
         else if (play_mode == "oneshot"){
             this.repeater = new Repeater(goal, delay, false, this.fix.bind(this));
         }
-        else if (play_mode == "mouseover"){
-            this.repeater = new Repeater(goal, delay, false, this.fix.bind(this));
-            this.dynamicText.element.addEventListener("mouseout", () => {
-                this.repeater.start();
-            });
-            this.dynamicText.element.addEventListener("mouseover", () => {
-                this.repeater.stop();
-            });
-        }
     }
     
     fix(){
@@ -229,6 +231,12 @@ class Fixer extends Manipulator{
 //string mess
 
 class DynamicText{
+    /**
+     * DynamicText es una clase que permite manipular el texto de un elemento HTML, consiste en un texto que se descompone en caracteres y se manipula para crear efectos visuales
+     * @param {HTML element} element Elemento HTML que contiene el texto
+     * @param {*} play_mode  Opcional, loop o oneshot
+     * @param {*} autoreset  Opcional, permite reiniciar automaticamente
+     */
     constructor(element, play_mode="loop", autoreset=false){
         this.element = element;
         this.text = element.innerHTML;
@@ -257,28 +265,46 @@ class DynamicText{
         this.messer.start();
     }
 
-    set_ignored_characters(array){
+    setIgnoredCharacters(array){
         this.ignoredCharacters = array;
     }
-    set_mess_delay(delay){
+    setMessDelay(delay){
         this.mess_delay = delay;
         this.messer.repeater.delay = delay;
     }
-    set_fix_delay(delay){
+    setFixDelay(delay){
         this.fix_delay = delay;
         this.fixer.repeater.delay = delay;
     }
-    set_idle_time(time){
+    setIdleTime(time){
         this.idle_time = time;
     }
-    set_playmode(mode){
+    setPlayMode(mode){
         this.messer.createRepeater();
         this.fixer.createRepeater();
         this.play_mode = mode;
     }
 }
 
+
 class MessManager{
+    /**
+     * MessManager
+     * @param {string} selector id, clase o selector css
+     * @param {string} play_mode Opcionl, loop o oneshot (Default: loop)
+     * @param {boolean} autoreset Opcional, controla si se reinicia automaticamente 
+     * 
+     * @example
+     * const messManager = new MessManager('.mess-me', 'loop', false);
+     * messManager.mess();
+     * 
+     * @example
+     * const messManager = new MessManager('.mess-me', 'oneshot', false);
+     * messManager.setMessDelay(100);
+     * messManager.setFixDelay(100);
+     * messManager.setIdleTime(2000);
+     * messManager.mess();
+     */
     constructor(selector, play_mode="loop", autoreset=false){
         this.elements = document.querySelectorAll(selector);
         this.dynamicTexts = [];
@@ -314,19 +340,19 @@ class MessManager{
 
     setMessDelay(delay){
         this.dynamicTexts.forEach(dynamicText => {
-            dynamicText.set_mess_delay(delay);
+            dynamicText.setMessDelay(delay);
         });
     }
 
     setFixDelay(delay){
         this.dynamicTexts.forEach(dynamicText => {
-            dynamicText.set_fix_delay(delay);
+            dynamicText.setFixDelay(delay);
         });
     }
 
     setIdleTime(time){
         this.dynamicTexts.forEach(dynamicText => {
-            dynamicText.set_idle_time(time);
+            dynamicText.setIdleTime(time);
         });
     }
     
